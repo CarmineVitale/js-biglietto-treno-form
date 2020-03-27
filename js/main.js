@@ -67,14 +67,16 @@ bottoneGenera.addEventListener('click',
 );
 
 // Reset biglietto
+// Azionamento tasto annulla
+
 bottoneAnnulla.addEventListener('click',
 function() {
   var nome = document.getElementById('nome').value='';
   var kmDaPercorrere = document.getElementById('km').value='';
   var fasciaEta = document.getElementById('fascia-eta').value='minorenne';
-
+// Nascondere parte in cui ci sono i dati del biglietto generato
 container.className = 'hidden';
-
+// Azzerare i valori del biglietto
 document.getElementById('nome-passeggero').innerHTML = '';
 document.getElementById('offerta-applicata').innerHTML = '';
 document.getElementById('carrozza').innerHTML = '';

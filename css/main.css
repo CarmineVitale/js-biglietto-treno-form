@@ -9,3 +9,82 @@
 .red {
   color: red;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: cyan;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* Header */
+header {
+  background: #B02000;
+}
+header img {
+  width: 100px;
+}
+/* Main content della pagina */
+.wrapper {
+  background: rgb(240,255,240);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.col:first-of-type {
+  padding-top: 10px;
+}
+.col {
+  padding-bottom: 10px;
+}
+.dati-input input {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  background: lightgrey;
+
+}
+.dati-input select {
+  width: 200px;
+  border: none;
+  background: lightgrey;
+
+}
+.firstlabel {
+  margin-right: 30px;
+}
+.secondlabel {
+  margin-right: 24px;
+}
+.thirdlabel {
+  margin-right: 61px;
+}
+.btn {
+  width: 70px;
+  height: 25px;
+  border-radius: 10px;
+  font-size: 14px;
+  border-color: black;
+  transition: background .3s , transform .3s , color .3s;
+}
+.btn:first-of-type {
+  margin-right: 10px;
+}
+.btn:hover {
+  background: gold;
+  color: white;
+  transform: scale(1.2);
+}
+.bottoni {
+  margin-top: 20px;
+  margin-left: 91px;
+}
