@@ -44,30 +44,26 @@ header img {
   padding-top: 10px;
 }
 .col {
-  padding-bottom: 10px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 .dati-input input {
-  width: 200px;
+  width: 300px;
   padding: 5px;
   border: none;
   background: lightgrey;
 
 }
 .dati-input select {
-  width: 200px;
+  width: 300px;
   border: none;
   background: lightgrey;
 
 }
-.firstlabel {
-  margin-right: 30px;
-}
-.secondlabel {
-  margin-right: 24px;
-}
-.thirdlabel {
-  margin-right: 61px;
-}
+
 .btn {
   width: 70px;
   height: 25px;
@@ -85,6 +81,40 @@ header img {
   transform: scale(1.2);
 }
 .bottoni {
-  margin-top: 20px;
-  margin-left: 91px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+/* Utilities  */
+.mb20 {
+  margin-bottom: 20px;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Parte di generazione biglietto */
+
+#biglietto {
+  margin-top: 100px;
+  width: 600px;
+  text-align: center;
+}
+td,
+th {
+  height: 35px;
+  border-bottom: 1px solid #ddd;
+}
+table {
+  width: 500px;
+}
+th {
+  color: red;
+  font-size: 18px;
+  background-color: #f2f2f2;
+}
+td {
+  font-size: 18px;
+  color: black;
+
 }
