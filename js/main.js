@@ -10,6 +10,7 @@ var bottoneGenera = document.getElementById('bottoneGenera');
 var bottoneAnnulla = document.getElementById('bottoneAnnulla')
 
 
+
 /**
  * EVENTI
  */
@@ -61,6 +62,7 @@ bottoneGenera.addEventListener('click',
 
         // Mostra biglietto
         container.className = 'show';
+
     }
 );
 
@@ -71,11 +73,13 @@ function() {
   var kmDaPercorrere = document.getElementById('km').value='';
   var fasciaEta = document.getElementById('fascia-eta').value='minorenne';
 
+container.className = 'hidden';
 
-
-
-
-
+document.getElementById('nome-passeggero').innerHTML = '';
+document.getElementById('offerta-applicata').innerHTML = '';
+document.getElementById('carrozza').innerHTML = '';
+document.getElementById('codice-cp').innerHTML = '';
+document.getElementById('costo').innerHTML = '';
 
 }
 )
